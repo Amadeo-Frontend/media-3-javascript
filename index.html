@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <style>
+      input, button {
+    display: block;
+    margin: 10px;
+    
+}
+    </style>
+
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <p>Digite 3 números para calcular a média</p>
+    <input type="numbers" id="a" />
+    <input type="numbers" id="b" />
+    <input type="numbers" id="c" />
+
+    <button onclick="obterMedia()">Calcular média</button>
+
+    <div id="resultado"></div>
+    <script>
+      function obterMedia() {
+        var c = parseInt(document.getElementById("c").value);
+        var a = parseInt(document.getElementById("a").value);
+        var b = parseInt(document.getElementById("b").value);
+
+        var media = (a + b + c) / 3;
+
+        document.getElementById("resultado").innerHTML = "Resultado: " + media;
+      }
+    </script>
+  </body>
+</html>
