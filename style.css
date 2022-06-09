@@ -1,0 +1,13 @@
+input,
+button {
+    display: block;
+    margin: 10px;
+}
+
+input:invalid {
+    border-color: rgb(247, 22, 22);
+}
+
+input:valid {
+    border-color: rgb(2, 217, 2);
+}

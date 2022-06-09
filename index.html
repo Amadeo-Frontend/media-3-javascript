@@ -3,22 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    
-    <style>
-      input, button {
-    display: block;
-    margin: 10px;
-    
-}
-    </style>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 
     <title>JavaScript</title>
   </head>
   <body>
     <p>Digite 3 números para calcular a média</p>
-    <input type="numbers" id="a" />
-    <input type="numbers" id="b" />
-    <input type="numbers" id="c" />
+    <input type="number" id="b" required min="1"/>
+    <input type="number" id="c" required min="1"/>
+    <input type="number" id="a" required min="1"/>
 
     <button onclick="obterMedia()">Calcular média</button>
 
