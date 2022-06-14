@@ -8,14 +8,19 @@
     <title>JavaScript</title>
   </head>
   <body>
-    <p>Digite 3 números para calcular a média</p>
-    <input type="number" id="b" required min="1"/>
-    <input type="number" id="c" required min="1"/>
-    <input type="number" id="a" required min="1"/>
+    <div class="inputBox">
+      <p>Digite 3 números para calcular a média</p>
+    <input type="number" id="b" required="required"/>
+    <span>Inserir um número</span>
+    <input type="number" id="c" required="required"/>
+    <span>Inserir um número</span>
+    <input type="number" id="a" required="required"/>
+    <span>Inserir um número</span>
 
     <button onclick="obterMedia()">Calcular média</button>
 
-    <div id="resultado"></div>
+    <div id="resultado"></div></div>
+    
     <script src="index.js"></script>
   </body>
 </html>
