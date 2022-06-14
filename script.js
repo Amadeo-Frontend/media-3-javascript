@@ -2,11 +2,12 @@ function obterMedia() {
   var a = document.getElementById("a").value;
   var b = document.getElementById("b").value;
   var c = document.getElementById("c").value;
-
-  if (a === "" || b === "" || c === "") {
-    alert("Preencha todos os campos!");
-    return false;
-  }
+  
+    if (a === "" || b === "" || c === "") {
+      alert("Preencha todos os campos");
+      return false;
+    }
+ 
 
   if (a <= '0' || b <= '0' || c <= '0') {  
     alert("Numero invalido!");
@@ -16,3 +17,4 @@ function obterMedia() {
 
   document.getElementById("resultado").innerHTML = "Resultado: " + media;
 }
+
