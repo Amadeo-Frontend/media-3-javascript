@@ -57,7 +57,7 @@ p {
     padding: 0 0 0 30px;
     pointer-events: none;
     font-size: 1em;
-    color: rgba(255, 255, 255, 0.25);
+    color: rgba(252, 238, 238, 0.25);
     text-transform: uppercase;
     transition: 0.5s;
 }
